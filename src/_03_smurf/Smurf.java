@@ -21,7 +21,7 @@ public class Smurf {
 	}
 
 	public String getName() {
-		return "My name is " + name + " Smurf.";
+		return "My name is " + name ;
 	}
 
 	public void eat() {
@@ -29,15 +29,15 @@ public class Smurf {
 	}
 
 	/* Papa Smurf wears a red hat, all the others are white. */
-	public String getHatColor() {
-		// 3. Fill in this method
-		return "";
+	public String getHatColor(String color) {
+
+		return color + " is " + name + "'s hat color"; 
 	}
 
 	/* Smurfette is the only female Smurf. */
-	public String isGirlOrBoy() {
+	public String isGirlOrBoy(String gender) {
 		// 4. Fill in this method
-		return "";
+		return name+ " is a " + gender;
 	}
 
 }
